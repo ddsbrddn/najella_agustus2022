@@ -1,8 +1,12 @@
 routes:
   /:
     template: home
-  /about/team/: team
-  /features/: features
+  /about/: 
+    template: about
+  /about/team/: 
+    template: team
+  /features/: 
+    template: features
   /work/: work
   /signup/: members/signup
   /signin/: members/signin
