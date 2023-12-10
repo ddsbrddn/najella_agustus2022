@@ -1,12 +1,16 @@
 routes:
+  /:
+    template: home
+  /about/team/: team
+  /features/: features
+  /work/: work
   /signup/: members/signup
   /signin/: members/signin
   /account/: members/account
 
 collections:
-  /:
-    permalink: /{slug}/
-    template: index
+  /blog/:
+    permalink: /blog/{slug}/
 
 taxonomies:
   tag: /tag/{slug}/
